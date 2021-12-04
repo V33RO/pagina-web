@@ -88,6 +88,7 @@ body{
     display:grid;
     grid-template-columns:repeat(auto-fill,240px);//autofill cant colum
     gap:26px;//darle espacio entre los elem grid
+    place-content:center;//alena grid en el centro
 }
 .product-card{
     width:240px;
@@ -102,6 +103,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    margin-top:12px;
 
 }
 .product-info figure{
@@ -114,7 +116,7 @@ body{
 .product-info div p:nth-child(1){
     font-weight:bold;
     font-size:var(--md);
-    margin-top:16px;
+    margin-top:0px;
     margin-bottom:4px;
 }
 .product-info div p:nth-child(2){
