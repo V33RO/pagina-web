@@ -1,8 +1,7 @@
 <h1 align="center">PAGINA WEB RESPONSIVE vero</h1>
 <h3 align="center">Siguiendo metodologias de front como first mobile, y uso de @mediaqueries</h3>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">ingresa aqui</p>
+<h3 align="left">Ingresa aqui para ver el desarrollo:</h3>
 <p> https://v33ro.github.io/pagina-web-Responsive/</p>
 
 <h3 align="left">Languages and Tools:</h3>
