@@ -1,5 +1,5 @@
 <h1 align="center">PAGINA WEB RESPONSIVE vero</h1>
-<h3 align="center">Sigueindo metodologias de front como first mobile, mediaqueries</h3>
+<h3 align="center">Siguiendo metodologias de front como first mobile, @mediaqueries</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
