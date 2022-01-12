@@ -13,16 +13,40 @@ body{
     font-family: 'Quicksand', sans-serif;
     margin:0;
 }
+.title{
+    font-size:var(--lg);
+    font-weight:bold;
+}
+.title-container{
+    display:flex;
+}
+.title-container img{
+    transform:rotate(180deg);
+    margin-right:14px;
+}
+.product-detail{
+    width:360px;
+    padding:24px;
+    box-sizing:border-box;
+    position:absolute;
 
+}
+.primary-button{
+    background-color:var(--hospital-green);
+    border-radius:8px;
+    border:none;
+    color:var(--white);
+    width:100%;
+    cursor:pointer;
+    font-size:var(--md);
+    font-weight:bold;
+    height:50px;
+}
 .my-order{
     width:100vh;
     height:100vh;
     display:grid;
     place-items:center;
-}
-.title{
-    font-size:var(--lg);
-    margin-bottom:40px;
 }
 .my-order-container{
     display:grid;
@@ -39,7 +63,7 @@ body{
   grid-template-columns:auto 1fr auto auto;
   gap:16px;
   margin-bottom:24px;
-  aling-items:center;
+  align-items:center;
  }
  .shopping-cart figure{
    margin:0;
@@ -86,6 +110,9 @@ body{
     font-size:var(--md);
     font-weight:bold;
 }
-@media(max-width:640px){
+@media (max-width:640px){
+    .product-detail{
+        width:100%;
+    }
 
- }
+}
